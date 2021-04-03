@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortener", "Shortener\Shortener.csproj", "{EFB69AB2-B764-4845-BE0F-8DFEF2C895E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B75F0147-F8D3-428E-B2CF-79C68CA72BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{53137E3E-86AF-4231-9C15-57AF6734194F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB69AB2-B764-4845-BE0F-8DFEF2C895E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB69AB2-B764-4845-BE0F-8DFEF2C895E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB69AB2-B764-4845-BE0F-8DFEF2C895E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB69AB2-B764-4845-BE0F-8DFEF2C895E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75F0147-F8D3-428E-B2CF-79C68CA72BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75F0147-F8D3-428E-B2CF-79C68CA72BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75F0147-F8D3-428E-B2CF-79C68CA72BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75F0147-F8D3-428E-B2CF-79C68CA72BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53137E3E-86AF-4231-9C15-57AF6734194F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53137E3E-86AF-4231-9C15-57AF6734194F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53137E3E-86AF-4231-9C15-57AF6734194F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53137E3E-86AF-4231-9C15-57AF6734194F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B09D730-4265-4DF1-9642-A59FF33EF643}
+	EndGlobalSection
+EndGlobal

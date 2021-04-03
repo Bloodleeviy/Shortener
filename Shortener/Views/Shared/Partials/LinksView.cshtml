@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Domain.Link>
+
+<h3>Your links (Original URL will be show on hover over the link) </h3>
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a title="@item.Url" href="@item.ShortUrL">@item.ShortUrL</a>
+            </td>
+        </tr>
+    }
+</table>
